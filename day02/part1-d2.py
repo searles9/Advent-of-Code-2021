@@ -1,8 +1,8 @@
 # Day 2 - Part 1
 
 def get_position(file):
-    depth = int(0)
-    horizontal = int(0)
+    depth = 0
+    horizontal = 0
     with open(file) as file:
         for line in file:
             line = line.strip()
@@ -19,4 +19,4 @@ def get_position(file):
 
 
 if __name__ == "__main__":
-    print(get_position("input-d2.txt"))
+    print(get_position("input-d2.txt")) # 2322630
