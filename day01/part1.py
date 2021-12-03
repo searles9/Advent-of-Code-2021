@@ -1,3 +1,6 @@
+# Day 1 - Part 1
+# Find increases
+
 def get_input(file):
     with open(file, "r") as file:
         lines = file.readlines()
@@ -13,5 +16,5 @@ def check_increases(inputs):
 
 if __name__ == "__main__":
     inputs = get_input("input.txt")
-    print(check_increases(inputs))
+    print(check_increases(inputs)) # 1400
     
